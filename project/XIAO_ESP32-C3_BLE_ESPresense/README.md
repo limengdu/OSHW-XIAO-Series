@@ -136,11 +136,13 @@ This change helps reduce internal contention and minimizes latency caused by rad
 
 ## 2. Build & Flash ESPresense
 
-- Download and open the [ESPresense code files](https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/project/XIAO_ESP32-C3_BLE_ESPresense). Wait for dependency installation and environment setup to complete.
+- Download the [ESPresense code files](https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/project/XIAO_ESP32-C3_BLE_ESPresense),open the project using PlatformIO.
+  
+  <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/c3b2d062-e0fb-4d63-9d4d-83b7281c89f7" />
 
    > If you haven't set up Platform IO yet, please refer to this [guide](https://docs.platformio.org/en/latest/integration/ide/vscode.html) for download.
 
-- Select the **seeed_xiao_esp32c3** environment, select the correct port, build and upload.
+- Wait for dependency installation and environment setup to complete. Select the **seeed_xiao_esp32c3** environment, select the correct port, build and upload.
   
   <img width="1920" height="1015" alt="image" src="https://github.com/user-attachments/assets/072622da-defd-4e7c-af3d-f2a8b1df3466" />
 
@@ -248,7 +250,8 @@ You can use [**MQTT Explorer**](https://mqtt-explorer.com/) to view all topics p
 
 -  Search using the **first 8 characters of your UUID**
   
-  <img width="1920" height="944" alt="image" src="https://github.com/user-attachments/assets/3c953155-2c01-44c0-8412-3d9a8dbb1c87" />
+  <img width="1920" height="944" alt="image" src="https://github.com/user-attachments/assets/d2e301a6-0a98-430e-859c-2fb860c6dc16" />
+
 
       
 
