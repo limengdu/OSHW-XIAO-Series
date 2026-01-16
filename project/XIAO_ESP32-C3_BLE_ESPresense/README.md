@@ -137,7 +137,7 @@ This change helps reduce internal contention and minimizes latency caused by rad
 
 ## 2. Build & Flash ESPresense
 
-- Download and open the [ESPresense code files](https://github.com/Carla-Guo/ESPresense). Wait for dependency installation and environment setup to complete.
+- Download and open the [ESPresense code files](https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/project/XIAO_ESP32-C3_BLE_ESPresense). Wait for dependency installation and environment setup to complete.
 
    > If you haven't set up Platform IO yet, please refer to this [guide](https://docs.platformio.org/en/latest/integration/ide/vscode.html) for download.
 
