@@ -136,7 +136,7 @@ This change helps reduce internal contention and minimizes latency caused by rad
 
 ## 2. Build & Flash ESPresense
 
-- Download the [ESPresense code files](https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/project/XIAO_ESP32-C3_BLE_ESPresense),open the project using PlatformIO.
+- Download the [ESPresense code files](https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/project/XIAO_ESP32-C3_BLE_ESPresense), open the project using PlatformIO.
   
   <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/c3b2d062-e0fb-4d63-9d4d-83b7281c89f7" />
 
