@@ -311,19 +311,6 @@ espectre:
   traffic_generator_mode: ping  # Use ICMP ping instead of DNS
 ```
 
-**Community test results** (thanks to [@gasment](https://github.com/francescopace/espectre/issues/48)):
-
-| Board | Antenna | Mode | Rate | RSSI | AGC | Result |
-|-------|---------|------|------|------|-----|--------|
-| ESP32-S3-N16R8 | built-in | DNS | 100 | -15±5 | 15±5 | ✅ |
-| ESP32-S3-N16R8 | built-in | PING | 100 | -15±5 | 10±5 | ✅ |
-| ESP32-S3-N16R8 | external | DNS | 100 | -10±5 | 5±5 | ✅ |
-| ESP32-S3-N16R8 | external | PING | 100 | -5±5 | 5±5 | ✅ |
-| ESP32-C6 Super Mini | built-in | DNS | 100 | -20±5 | 15±5 | ✅ |
-| ESP32-C6 Super Mini | built-in | PING | 100 | -20±5 | 15±5 | ✅ |
-| ESP32-C3 Core | built-in | DNS | 94 | -20±5 | 15±5 | ✅ |
-| ESP32-C3 Core | built-in | PING | 94 | -20±5 | 15±5 | ✅ |
-
 Both modes work reliably across different boards and antenna configurations.
 
 For detailed rate recommendations and Nyquist-Shannon sampling theory, see [TUNING.md](TUNING.md#traffic-generator-rate-0-1000-pps).
