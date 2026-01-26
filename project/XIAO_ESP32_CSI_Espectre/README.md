@@ -98,11 +98,10 @@ Download the example configuration for your hardware:
 
 | Platform | Configuration File | CPU | WiFi | PSRAM | Status |
 |----------|-------------------|-----|------|-------|--------|
-| **XIAO ESP32-C6** | [espectre-c6.yaml](https://raw.githubusercontent.com/francescopace/espectre/main/examples/espectre-c6.yaml) | RISC-V @ 160MHz | WiFi 6 | ❌ | ✅ Tested |
-| **XIAO ESP32-S3** | [espectre-s3.yaml](https://raw.githubusercontent.com/francescopace/espectre/main/examples/espectre-s3.yaml) | Xtensa @ 240MHz | WiFi 4 | ✅ 8MB | ✅ Tested |
-| **XIAO ESP32-C3** | [espectre-c3.yaml](https://raw.githubusercontent.com/francescopace/espectre/main/examples/espectre-c3.yaml) | RISC-V @ 160MHz | WiFi 4 | ❌ | ✅ Tested ² |
-| **XIAO ESP32-C5** | [espectre-c5.yaml](https://raw.githubusercontent.com/francescopace/espectre/main/examples/espectre-c5.yaml) | RISC-V @ 240MHz | WiFi 6 | ❌ | ⚠️ Experimental ¹ |
-
+| **XIAO ESP32-C6** | [espectre-c6.yaml](examples/espectre-c6.yaml) | RISC-V @ 160MHz | WiFi 6 | ❌ | ✅ Tested |
+| **XIAO ESP32-S3** | [espectre-s3.yaml](examples/espectre-s3.yaml) | Xtensa @ 240MHz | WiFi 4 | ✅ 8MB | ✅ Tested |
+| **XIAO ESP32-C3** | [espectre-c3.yaml](examples/espectre-c3.yaml) | RISC-V @ 160MHz | WiFi 4 | ❌ | ✅ Tested ² |
+| **XIAO ESP32-C5** | [espectre-c5.yaml](examples/espectre-c5.yaml) | RISC-V @ 240MHz | WiFi 6 | ❌ | ⚠️ Experimental ¹ |
 
 **Recommendations**:
 - **XIAO ESP32-C6**: Best for WiFi 6 environments, standard motion detection
