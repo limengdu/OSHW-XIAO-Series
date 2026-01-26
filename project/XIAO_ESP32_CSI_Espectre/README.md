@@ -284,7 +284,7 @@ ESPectre implements the **NBVI (Normalized Baseline Variability Index)** algorit
 
 > ⚠️ **IMPORTANT**: Keep the room **quiet and still** for 10 seconds after device boot. The auto-calibration runs during this time and movement will affect detection accuracy.
 
-For NBVI algorithm details, see [ALGORITHMS.md](micro-espectre/ALGORITHMS.md#nbvi-automatic-subcarrier-selection).
+For NBVI algorithm details, see [ALGORITHMS.md](ALGORITHMS.md#nbvi-automatic-subcarrier-selection).
 
 ---
 
