@@ -91,6 +91,7 @@ The reason we recommend downloading and running ESPHome on a computer terminal, 
 For example, during our testing we observed the following message:
 >We found 1.63GB of unnecessary PlatformIO system data (temporary files, unnecessary packages, etc.). Use pio system prune --dry-run to list them or pio system prune to save disk space.
 
+---
 
 ### 2. Download a configuration file
 
@@ -114,11 +115,15 @@ These files are pre-configured to download the component automatically from GitH
 >
 > ESP32-C5: `improv_serial` (USB provisioning) not yet supported by ESPHome. Use BLE or WiFi AP provisioning instead.
 
+---
+
 ### 3. Build and flash
 
 ```bash
 esphome run espectre-c6.yaml  # or espectre-s3.yaml
 ```
+
+---
 
 ### 4. Configure WiFi
 
@@ -159,7 +164,27 @@ Optimal sensor placement is crucial for reliable movement detection. Recommended
 
 ---
 
-### 6. Configuration Parameters
+### 6. Home Assistant Integration
+
+ESPHome provides **automatic Home Assistant integration**. Once the device is flashed and connected to WiFi:
+
+1. Home Assistant will automatically discover the device
+2. Go to **Settings** → **Devices & Services** → **ESPHome**
+3. Click **Configure** on the discovered device
+4. All sensors will be automatically added
+
+- Please calibrate the device before use. Simply press the `Calibrate` button; the button status will automatically reset once calibration is complete. Note: The room must be unoccupied during calibration.
+
+- If you find that Home Assistant can detect the Espectre device but fails to add it successfully, simply try lowering the `traffic_generator_rate`.
+
+> When collecting CSI data, the CPU operates under a high interrupt load (100 times per second or more). As a result, resource contention occurs between the CSI data collection process and the Home Assistant communication tasks, either at the hardware level or due to limited network bandwidth.
+
+
+- For further automation examples, dashboard examples, and more setup detials, please refer to [SETUP.md](SETUP.md).
+
+---
+
+### 7. Configuration Parameters
 
 If you find the accuracy unsatisfactory, you can fine-tune it manually by adjusting the parameters in the YAML file under the `espectre:` section. After adjustments, rebuild and upload the file.
 
@@ -179,26 +204,6 @@ If you find the accuracy unsatisfactory, you can fine-tune it manually by adjust
 | `gain_lock` | string | auto | AGC/FFT gain lock: `auto`, `enabled`, `disabled` |
 
 For detailed parameter tuning (ranges, recommended values, troubleshooting), see [TUNING.md](TUNING.md).
-
----
-
-### 7. Home Assistant Integration
-
-ESPHome provides **automatic Home Assistant integration**. Once the device is flashed and connected to WiFi:
-
-1. Home Assistant will automatically discover the device
-2. Go to **Settings** → **Devices & Services** → **ESPHome**
-3. Click **Configure** on the discovered device
-4. All sensors will be automatically added
-
-- Please calibrate the device before use. Simply press the `Calibrate` button; the button status will automatically reset once calibration is complete. Note: The room must be unoccupied during calibration.
-
-- If you find that Home Assistant can detect the Espectre device but fails to add it successfully, simply try lowering the `traffic_generator_rate`.
-
-> When collecting CSI data, the CPU operates under a high interrupt load (100 times per second or more). As a result, resource contention occurs between the CSI data collection process and the Home Assistant communication tasks, either at the hardware level or due to limited network bandwidth.
-
-
-- For further automation examples, dashboard examples, and more setup detials, please refer to [SETUP.md](SETUP.md).
 
 ---
 
