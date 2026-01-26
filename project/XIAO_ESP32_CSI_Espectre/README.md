@@ -30,7 +30,6 @@ Want to understand the technical details? See [ALGORITHMS.md](ALGORITHMS.md) for
 - [Quick Start](#quick-start)
 - [System Architecture](#system-architecture)
 - [What You Can Do With It](#what-you-can-do-with-it)
-- [FAQ](#faq-for-beginners)
 - [Security and Privacy](#security-and-privacy)
 - [Technical Deep Dive](#technical-deep-dive)
 - [Documentation](#documentation)
@@ -40,14 +39,13 @@ Want to understand the technical details? See [ALGORITHMS.md](ALGORITHMS.md) for
 
 ## Feature
 
-1. **What it does**: Detects movement using Wi-Fi (no cameras, no microphones)
-2. **What you need**: A XIAO ESP32 Board
-3. **Setup time**: 10-15 minutes
+- **Wi-Fi-based motion detection**: Detects human movement using Wi-Fi signals only — no cameras, no microphones, ensuring full privacy
 
-- **No cameras** (total privacy)
-- **No wearables needed** (no bracelets or sensors to wear)
-- **Works through walls** (Wi-Fi passes through walls)
-- **Very cheap** (~€10 total)
+- **Minimal hardware, fast setup**: Requires just a XIAO ESP32 board and can be set up in 10–15 minutes, with a total cost of around €10
+
+- **Completely non-intrusive**: No wearables or physical sensors needed — users don’t have to carry or wear anything
+
+- **Works through walls**: Wi-Fi signals penetrate walls, enabling reliable motion detection across rooms
 
 ---
 
