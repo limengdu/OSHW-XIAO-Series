@@ -62,7 +62,7 @@ Want to understand the technical details? See [ALGORITHMS.md](ALGORITHMS.md) for
 ### Hardware
 
 - **2.4GHz Wi-Fi Router** - the one you already have at home works fine
-- **ESP32 with CSI support** - XIAO ESP32-C3 / XIAO ESP32-C6 / XIAO ESP32-S3, XIAO ESP32-C5 supported experimentally.
+- [**ESP32 with CSI support**](https://www.seeedstudio.com/ESP32-Series-c-2580.html) - XIAO ESP32-C3 / XIAO ESP32-C6 / XIAO ESP32-S3, XIAO ESP32-C5 supported experimentally.
 
 ### Software (All Free)
 
