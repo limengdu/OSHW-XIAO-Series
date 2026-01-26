@@ -191,13 +191,14 @@ ESPHome provides **automatic Home Assistant integration**. Once the device is fl
 3. Click **Configure** on the discovered device
 4. All sensors will be automatically added
 
+- Please calibrate the device before use. Simply press the `Calibrate` button; the button status will automatically reset once calibration is complete. Note: The room must be unoccupied during calibration.
 
-If you find that Home Assistant can detect the Espectre device but fails to add it successfully, simply try lowering the `traffic_generator_rate`.
+- If you find that Home Assistant can detect the Espectre device but fails to add it successfully, simply try lowering the `traffic_generator_rate`.
 
 > When collecting CSI data, the CPU operates under a high interrupt load (100 times per second or more). As a result, resource contention occurs between the CSI data collection process and the Home Assistant communication tasks, either at the hardware level or due to limited network bandwidth.
 
 
-For further automation examples, dashboard examples, and more setup detials, please refer to [SETUP.md](SETUP.md).
+- For further automation examples, dashboard examples, and more setup detials, please refer to [SETUP.md](SETUP.md).
 
 ---
 
