@@ -1,8 +1,16 @@
-[![ESPHome](https://img.shields.io/badge/Component-ESPHome-orange.svg)](https://esphome.io/)
-[![Platform](https://img.shields.io/badge/platform-XIAO_ESP32-red.svg)](https://www.seeedstudio.com/ESP32-Series-c-2580.html)
+# 🛜 ESPectre for XIAO ESP32 Series👻
 
+<p align="center">
+    <img width="200" height= auto alt="image" src="https://github.com/user-attachments/assets/01f773b2-9588-4506-bf08-0d8307cc4b38" />
 
-# 🛜 ESPectre 👻
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Hardware-XIAO ESP32 Series -red" alt="XIAO ESP32 Series">
+  <img src="https://img.shields.io/badge/Automation Center-Home Assistant-41BDF5" alt="Home Assistant"> 
+  <img src="https://img.shields.io/badge/Communication Signal-WiFi-green" alt="WiFi">
+  <img src="https://img.shields.io/badge/Component-ESPHome-orange" alt="esphome">
+</p>
 
 **Motion detection system based on Wi-Fi spectre analysis (CSI), with native Home Assistant integration via ESPHome.**
 
@@ -41,7 +49,7 @@ Want to understand the technical details? See [ALGORITHMS.md](ALGORITHMS.md) for
 
 - **Wi-Fi-based motion detection**: Detects human movement using Wi-Fi signals only — no cameras, no microphones, ensuring full privacy
 
-- **Minimal hardware, fast setup**: Requires just a XIAO ESP32 board and can be set up in 10–15 minutes, with a total cost of around €10
+- **Minimal hardware, fast setup**: Requires just a XIAO ESP32 board and can be set up in 10–15 minutes, with a total cost of around $7
 
 - **Completely non-intrusive**: No wearables or physical sensors needed — users don’t have to carry or wear anything
 
