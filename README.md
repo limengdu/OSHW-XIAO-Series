@@ -38,7 +38,7 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 	<tr>
 	    <td align="center"><img src="https://www.seeedstudio.com/blog/wp-content/uploads/2024/05/XIAO%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%B4%A0%E6%9D%90-21-1536x1257.jpg" alt="alt text" height="100" width= auto></td>
 		<td><strong>XIAO ESP32-S3 (Sense)</strong><br>High-performance dev board with Wi-Fi and BLE, with Microphone, Mini camera and onboard SD Card Slot on the Sense version</td>
-        <td align="center" width= "135"><a href="https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
+        <td align="center" width= "200"><a href="https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
