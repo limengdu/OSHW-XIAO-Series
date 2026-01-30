@@ -39,9 +39,6 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 
 ### XIAO Dev Boards
 
-<a href="" target="_blank"><b><strong>🖱️ Buy</strong></b></a>
-<a href="" target="_blank"><b><strong>📚 Resources</strong></b></a>
-
 <table align="center">
 <font size={"2"}>
 	<tr>
