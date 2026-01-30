@@ -23,7 +23,7 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 
 [Reference Projects](#reference-projects)
 
-[Community GIY Projects](#community-diy-projects)
+[Community DIY Projects](#community-diy-projects)
 
 - [XIAO USE CASE](#xiao-use-case)
 - [How to Contribute](#how-to-contribute)
@@ -44,67 +44,67 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 <table align="center">
 <font size={"2"}>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/57e09470-7f82-4b29-9f0b-ee24c20f881f" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/57e09470-7f82-4b29-9f0b-ee24c20f881f" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO ESP32-S3 (Sense)</strong><br>High-performance dev board with Wi-Fi and BLE, with Microphone, Mini camera and onboard SD Card Slot on the Sense version</td>
         <td align="center" width= "170"><a href="https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/d4ae565b-52cf-4b33-9a1b-2d7c73cdd4b5" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/d4ae565b-52cf-4b33-9a1b-2d7c73cdd4b5" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO ESP32-C3</strong><br>Cost effective with Wi-Fi and BLE on board</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/cba9e163-a265-4be3-9ec3-a4be86620aa3" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/cba9e163-a265-4be3-9ec3-a4be86620aa3" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO ESP32-C6</strong><br>2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, and Thread for Matter</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/b46cf0d4-034f-4011-b687-38f60edc4084" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/b46cf0d4-034f-4011-b687-38f60edc4084" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO ESP32-C5</strong><br>2.4 & 5 GHz Wi-Fi 6, BLE 5.0, Zigbee, and Thread for Matter</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C5-p-6609.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/cd97c5da-6dfa-4940-ad58-cc6d1e44c679" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/cd97c5da-6dfa-4940-ad58-cc6d1e44c679" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO nRF52840 (Sense)</strong><br>Ultra-low power consumption, perfect for BLE applications, with microphone and 6-axis IMU on the Sense version</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/XIAO_BLE/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/2006c0de-fe68-4f96-b3b2-2cd402b5f0c7" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/2006c0de-fe68-4f96-b3b2-2cd402b5f0c7" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO nRF54L15 (Sense)</strong><br>Ultra low power consumption with multiple connectivity, with microphone and 6-axis IMU on the Sense version</td>
         <td align="center"><a href="https://www.seeedstudio.com/XIAO-nRF54L15-Sense-p-6494.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/2364e006-5bfc-4519-898c-95812d0a66ea" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/2364e006-5bfc-4519-898c-95812d0a66ea" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO RP2040</strong><br>Raspberry Pi Ecosystem with great MicroPython support</td>
         <td align="center"><a href="https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/XIAO-RP2040/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/55895340-c212-471f-9d3b-7005894e3fee" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/55895340-c212-471f-9d3b-7005894e3fee" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO RP2350</strong><br>MicroPython-ready based on Raspberry Pi RP2350</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/getting-started-xiao-rp2350/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/2ac6fbf3-bf96-4040-ad21-05320b775672" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/2ac6fbf3-bf96-4040-ad21-05320b775672" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO SAMD21</strong><br>Classic for Arduino beginners, with courses</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/b4e07414-23ed-43f5-9fe2-cee58670066a" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/b4e07414-23ed-43f5-9fe2-cee58670066a" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO RA4M1</strong><br>Renesas 32-bit ARM Cortex-M4 MCU, Arduino IDE-ready</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-XIAO-RA4M1-p-5943.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
 	</tr>
 	<tr>
-	    <td align="center"><img src="https://github.com/user-attachments/assets/b5ed4e13-85f5-4bdd-bd6e-fafa8e187001" alt="alt text"  width= "250"></td>
+	    <!-- <td align="center"><img src="https://github.com/user-attachments/assets/b5ed4e13-85f5-4bdd-bd6e-fafa8e187001" alt="alt text"  width= "250"></td> -->
 		<td><strong>XIAO MG24 (Snese)</strong><br>Super-low power for battery-powered Matter projects, with microphone and 6-axis IMU on the Sense version</td>
         <td align="center"><a href="https://www.seeedstudio.com/Seeed-XIAO-MG24-Sense-p-6248.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_mg24_getting_started" target="_blank"><b><strong>📚 Getting Started</strong></b></a></td>
@@ -112,7 +112,7 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 </font>
 </table>
 
-💡 Seeed Studio XIAO Boards are also available in various versions of **Pre-soldered**, **3pcs Pack**, **Plus**, and **Tape and Reel**.
+💡 Seeed Studio XIAO Boards are also available in various versions of [**Pre-soldered**, **3pcs Pack**, **Plus**, and **Tape and Reel**](https://www.seeedstudio.com/xiao-series-page#boards).
 
 💡 For more model comparisons: Please refer to the complete [Seeed Studio XIAO Series Comparison Table](https://wiki.seeedstudio.com/SeeedStudio_XIAO_Series_Introduction/#seeed-studio-xiao-series-comparison-table) for detailed RAM, Flash, and pin specifications, you can also find the resource files for each XIAO in the Open Source the Seeed Studio XIAO section on this page:
 - Datasheets
@@ -129,105 +129,22 @@ Of course, you can also find these files in the resources section of each XIAO's
 💡 Alternatively, you can refer to this comprehensive guide—arguably the most detailed selection guide in XIAO's history—*[Meet the Seeeduino XIAO Family](https://dronebotworkshop.com/seeeduino-xiao-family/)*, with special thanks to [DroneBot Workshop](https://dronebotworkshop.com/) for their contribution.
 
 ### XIAO Add-ons
-<table align="center">
-<font size={"2"}>
-	<tr>
-		<th colspan="3" align="center">Expansion</th>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-xiao-debugger.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>Seeed Studio XIAO Debug Mate</strong><br>An open-source ESP32-S3 multi-tool: DAPLink chip-level debugging, built-in serial monitoring with UART passthrough, and accurate power consumption measurement.</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-Debug-Mate-p-6588.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/getting_started_with_xiao_debug_mate/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/0/103030356_back-08.png" alt="alt text"  width= "250"></td>
-		<td><strong>Seeed Studio XIAO Expansion Board</strong><br>An expansion board for XIAO with rich peripherals, including OLED, RTC, expandable memory, passive buzzer, RESET/User button, 5V servo connector, multiple data interfaces</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/x/i/xiao_-front-23.png" alt="alt text"  width= "250"></td>
-		<td><strong>Grove Shield For Seeed Studio XIAO</strong><br>An plug-and-play Grove extension board for XIAO series, with the on-board battery management chip, including two Grove IIC and one UART</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-p-4621.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-114993507-xiao-powerbread-45font.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>XIAO PowerBread, a Breadboard Power Supply and Meter</strong><br>Designed by <a href="https://github.com/nicho810">Nicho D</a> with Seeed Fusion Co-Create, it features a color LCD for real-time monitoring of voltage, current, and power on 5V/3.3V rails. </td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/XIAO-PowerBread-p-6318.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://github.com/nicho810/XIAO-PowerBread"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-		<th colspan="3" align="center">Sensors</th>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/i/m/image.jpeg" alt="alt text"  width= "250"></td>
-		<td><strong>Grove Vision AI v2 Kit </strong><br>An MCU-based vision AI module that supports TensorFlow and PyTorch, enabling no-code model deployment and real-time inference visualization via <a href="https://sensecraft.seeed.cc/ai/#/model">SenseCraft AI</a>.</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/Grove-Vision-AI-V2-Kit-p-5852.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/grove_vision_ai_v2/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-101010001-seeed-studio-24ghz-mmwave-for-xiao-45font_1_1.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>24Ghz mmwave Human Static Presence Sensor for Seeed Studio XIAO</strong><br> It is an antenna-integrated, high-sensitivity mmwave radar sensor that is based on the FMCW principle.</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-24Ghz-mmwave-Human-Static-Presence-Module-p-6266.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/mmwave_for_xiao/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-101991067-grove---smart-ir-gesture-sensor-45font.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>Grove Smart IR Gesture Sensor</strong><br>AI algorithm, over 15 gestures detection, I2C, SPI, support Grove, XIAO, Type-C connecting, 3.3V/5V</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/Grove-Smart-IR-Gesture-Sensor-p-5721.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/grove_gesture_paj7660/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/3/-/3-110991984-acrylic-speaker-diy-kit-for-respeaker-lite-feature.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>ReSpeaker Lite Voice Assistant Kit</strong><br>A smart voice assistant development kit with high-performance voice processing and audio playback.</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/reSpeaker_usb_v3/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/7/-/7-l76k-gnss-module-for-seeed-studio-xiao-feature.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>L76K GNSS Module for Seeed Studio XIAO</strong><br>The L76K GNSS Module offers global tracking through GPS, BeiDou, GLONASS, and QZSS. </td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/L76K-GNSS-Module-for-Seeed-Studio-XIAO-p-5864.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://wiki.seeedstudio.com/get_start_l76k_gnss/"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-	    <td align="center"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-114993446-xiao-log-45font.jpg" alt="alt text"  width= "250"></td>
-		<td><strong>XIAO Logger HAT</strong><br>Designed by <a href="https://github.com/potblitd/XIAO-log/tree/main">Westlake University's Marcel</a> with Seeed Fusion Co-Create, a tiny temperature, humidity and light add-on module for XIAO with RTC and battery voltage monitoring</td>
-        <td align="center" width= "170"><a href="https://www.seeedstudio.com/XIAO-LOG-p-6341.html" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href="https://github.com/potblitd/XIAO-log/tree/main"><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-		<th colspan="3" align="center">Connectivity</th>
-	</tr>
-	<tr>
-	    <td align="center"><img src="" alt="alt text"  width= "250"></td>
-		<td><strong></strong><br>111</td>
-        <td align="center" width= "170"><a href="" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href=""><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-		<th colspan="3" align="center">Actuators</th>
-	</tr>
-	<tr>
-	    <td align="center"><img src="" alt="alt text"  width= "250"></td>
-		<td><strong></strong><br>111</td>
-        <td align="center" width= "170"><a href="" target="_blank"><b><strong>🖱️ Buy Now</strong></b></a><br>
-		<a href=""><b><strong>📚 Getting Started</strong></b></a></td>
-	</tr>
-	<tr>
-		<th colspan="3" align="center">Kit</th>
-	</tr>
-	
-</font>
-</table>
+
+<p align="center" width="100%"><a href="https://www.seeedstudio.com/xiao-series-page#addon"><img src="image/xiao_add-on.png" alt="alt text"  width= "1000"></a></p>
+
+The [XIAO Add-on](https://www.seeedstudio.com/xiao-series-page#addon) are expansion modules and "hats" designed to enhance the functionality of XIAO dev boards. They cover a variety of applications including display, control, and sensing, and allow for quick prototyping without complex wiring.
 
 ### XIAO Gadgets
+
+<p align="center" width="100%"><a href="https://www.seeedstudio.com/xiao-series-page#gadget"><img src="image/xiao_gadget.png" alt="alt text"  width= "1000"></a></p>
+
+[XIAO Gadget](https://www.seeedstudio.com/xiao-series-page#gadget) is compact, application-ready hardware built with XIAO dev boards. By combining XIAO with sensors, displays, connectivity, and enclosure-friendly modules, XIAO Gadgets help makers and developers rapidly turn ideas into functional, real-world devices without complex custom hardware design.  
 
 ---
 ## Wiki and Learning
 
-<a href="https://wiki.seeedstudio.com/xiao_topic_page/"><img src="https://files.seeedstudio.com/wiki/xiao_topicpage/compatible_software.jpg" alt="alt text"  width= "1000"></a>
+<p align="center" width="100%"><a href="https://wiki.seeedstudio.com/xiao_topic_page/"><img src="https://files.seeedstudio.com/wiki/xiao_topicpage/compatible_software.jpg" alt="alt text"  width= "1000"></a></p>
+
 Our team together with the community, has create a rich collection of wikis, applications and documentation. The [Seeed Studio XIAO EXHIBITION](https://wiki.seeedstudio.com/xiao_topic_page/) page is organized as a centralized index to help developers quickly locate detailed tutorials, reference materials, and ecosystem support links for each XIAO development board.
 The page covers a wide range of topics, including:
 - Product Guides
@@ -294,23 +211,23 @@ Your project can be submitted if it meets one or more of the following:
 
 Both `hardware-focused` and `software-focused` projects are welcome，and we provide two easy ways to submit your project:
 
-**Option 1: Submit via GitHub (Recommended)**
+#### ption 1: Submit via GitHub (Recommended)
 
 1. Fork this repository
 
 2. Create a new file under the community-diy-projects/ directory. File name format:
 	```
 	XIAO_<ChipPlatform>_<KeyTech>_<ProjectName>
-	# KeyTech:hardware, software, or protocolOr framework…
+	# KeyTech:hardware, software, or protocol, or framework…
 	```
 
-3. Use the [**Community Project Template**](community-project-template) below to describe your project
+3. Use the [**Community Project Template**](#community-diy-project-template) below to describe your project
 
 4. Submit a **Pull Request**
 
 5. Our maintainers will review and merge it
 
-**Option 2: Submit via GitHub Discussions (Low Barrier)** (待定，全看AE有没有时间)
+#### Option 2: Submit via GitHub Discussions (Low Barrier)(待定，全看AE有没有时间)
 
 If you’re not familiar with Pull Requests:
 
@@ -322,7 +239,7 @@ If you’re not familiar with Pull Requests:
 
 4. Maintainers may later help convert it into a featured project entry
 
-**Community DIY Project Template**
+#### Community DIY Project Template
 
 Please include the following information when submitting your project:
 
@@ -332,26 +249,26 @@ Please include the following information when submitting your project:
 - README.md file that accurately describes the project
 
 	```
-	## Project Name
+	# Project Name
 
-	### Creator
+	## Creator
 	- Name / GitHub handle:
 	- (Optional) Website or social link:
 
-	### Project Description
+	## Project Description
 	A short description of what the project does and what problem it solves.
 
-	### Key Features
+	## Key Features
 	- Feature 1
 	- Feature 2
 	- Feature 3
 
-	### Hardware & Software
+	## Hardware & Software
 	- Hardware components:
 	- Software / frameworks:
 	- Programming language:
 
-	### Quick Start
+	## Quick Start
 	- Demo video / blog post / Hackster page:
 	- Getting Started
 
@@ -366,7 +283,7 @@ If your project goes beyond a prototype and you’re interested in turning it in
 ## Roadmap
 
 <p align="center" width="100%"><a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/discussions">
-<img src="/image/roadmap.png" alt="alt text" width="1000">
+<img src="/image/roadmap.png" alt="alt text" width="700">
 </a>
 </p>
 
