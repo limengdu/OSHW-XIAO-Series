@@ -7,9 +7,9 @@
 </p>
 
 
-The Seeed Studio XIAO Series is a collection of thumb-sized, powerful microcontroller units (MCUs) tailor-made for space-conscious projects requiring high performance and wireless connectivity. Embodying the essence of popular hardware platforms such as ESP32, RP2040, nRF52840, and SAMD21, the Arduino-compatible XIAO series is the perfect toolset for you to embrace tiny machine learning (TinyML) on the Edge.The whole XIAO Series features compact design with all SMD components placed on the same side of the board, so designers can easily integrate XIAO into their boards for rapid mass production.
+The Seeed Studio XIAO Series is a collection of thumb-sized, powerful microcontroller units (MCUs) tailor-made for space-conscious projects requiring high performance and wireless connectivity. Embodying the essence of popular hardware platforms such as ESP32, RP2040, nRF52840, and SAMD21, the Arduino-compatible XIAO series is the perfect toolset for you to embrace tiny machine learning (TinyML) on the Edge. The whole XIAO Series features compact design with all SMD components placed on the same side of the board, so designers can easily integrate XIAO into their boards for rapid mass production.
 
-This repository is the official GitHub Project Hub for the XIAO Series, serving as a aggregated entry point for selection guidance, technical documentation, internal reference projects, and community-driven DIY works.
+This repository is the official GitHub Project Hub for the XIAO Series, serving as an aggregated entry point for selection guidance, technical documentation, internal reference projects, and community-driven DIY works.
 
 **Contents**
 
@@ -47,7 +47,7 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 	<tr>
 	    <td align="center"><img src="https://github.com/user-attachments/assets/57e09470-7f82-4b29-9f0b-ee24c20f881f" alt="alt text"  width= "250"></td>
 		<td><strong>XIAO ESP32-S3 (Sense)</strong><br>High-performance dev board with Wi-Fi and BLE, with Microphone, Mini camera and onboard SD Card Slot on the Sense version</td>
-        <td align="center" width= "170">
+        <td align="center" width= "200">
 		<a href="https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html" target="_blank"><b><strong>🖱️ Buy</strong></b></a>
 		<a href="https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html" target="_blank"><b><strong>🖱️ Buy(Sense)</strong></b></a><br>
 		<a href="https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/" target="_blank"><b><strong>📚 Wiki</strong></b></a>
@@ -188,7 +188,7 @@ These projects are hands-on reproductions and validations of popular industry tr
 
 - [XIAO_ESP32-C3_BLE_ESPresense](reference-projects/XIAO_ESP32-C3_BLE_ESPresense)
 - [XIAO_ESP32_CSI_Espectre](reference-projects/XIAO_ESP32_CSI_Espectre)
-- more comming soon…
+- more coming soon…
 
 ---
 
@@ -227,16 +227,14 @@ Your project can be submitted if it meets one or more of the following:
 - An application demo, experiment, or creative build
 - A project originally published on GitHub, Hackster, Instructables, or a personal blog
 
-Both `hardware-focused` and `software-focused` projects are welcome，and we provide two easy ways to submit your project:
-
-**option 1: Submit via GitHub**
+Both `hardware-focused` and `software-focused` projects are welcome, and you can submit your project by:
 
 1. Fork this repository
 
 2. Create a new file under the community-diy-projects/ directory. File name format:
 	```
 	XIAO_<ChipPlatform>_<KeyTech>_<ProjectName>
-	# KeyTech:hardware, software, or protocol, or framework…
+	# KeyTech: hardware, software, or protocol, or framework…
 	```
 
 3. Use the **Community Project Template** below to describe your project
@@ -245,40 +243,40 @@ Both `hardware-focused` and `software-focused` projects are welcome，and we pro
 
 5. Our maintainers will review and merge it
 
-**Community DIY Project Template**
-
-Please include the following information when submitting your project:
-
-- Source Code
-- Examples
-- Project photos or screenshots (Optional but encouraged)
-- README.md file that accurately describes the project
-
-	```
-	# Project Name
-
-	## Creator
-	- Name / GitHub handle:
-	- (Optional) Website or social link:
-
-	## Project Description
-	A short description of what the project does and what problem it solves.
-
-	## Key Features
-	- Feature 1
-	- Feature 2
-	- Feature 3
-
-	## Hardware & Software
-	- Hardware components:
-	- Software / frameworks:
-	- Programming language:
-
-	## Quick Start
-	- Demo video / blog post / Hackster page:
-	- Getting Started
-
-	```
+>**Community DIY Project Template**
+>
+> Please include the following information when submitting your project:
+> 
+> - Source Code
+> - Examples
+> - Project photos or screenshots (Optional but encouraged)
+> - README.md file that accurately describes the project
+> 
+> 	```
+> 	# Project Name
+> 
+> 	## Creator
+> 	- Name / GitHub handle:
+> 	- (Optional) Website or social link:
+> 
+> 	## Project Description
+> 	A short description of what the project does and what problem it solves.
+> 
+> 	## Key Features
+> 	- Feature 1
+> 	- Feature 2
+> 	- Feature 3
+> 
+> 	## Hardware & Software
+> 	- Hardware components:
+> 	- Software / frameworks:
+> 	- Programming language:
+> 
+> 	## Quick Start
+> 	- Demo video / blog post / Hackster page:
+> 	- Getting Started
+> 
+> 	```
 
 <!-- ### Make Profit From Your Ideas with Co-Create
 
