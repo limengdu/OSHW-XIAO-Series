@@ -311,4 +311,5 @@ We’re using this Discussion as a platform to connect with and get valuable fee
 3，开头芯片名字改成厂商名字
 4，more coming soon添加连接，
 5，图片可能需要改
+6，删除。vscode 和。ds_strod这两个文件
 
