@@ -306,3 +306,9 @@ We’re using this Discussion as a platform to connect with and get valuable fee
 
 
 
+1，把两个projects合并到一个文件夹，再分两个目录，把相关链接进行修改
+2，MEET XIAO ……名字改一下
+3，开头芯片名字改成厂商名字
+4，more coming soon添加连接，
+5，图片可能需要改
+
