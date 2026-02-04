@@ -228,7 +228,7 @@ Both `hardware-focused` and `software-focused` projects are welcome, and you can
 
 1. Fork this repository
 
-2. Create a new file under the projects/community-diy-projects/ directory. File name format:
+2. Create a new file under the `projects/community-diy-projects/ directory`. File name format:
 	```
 	XIAO_<ChipPlatform>_<KeyTech>_<ProjectName>
 	# KeyTech: hardware, software, or protocol, or framework…
