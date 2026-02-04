@@ -7,7 +7,7 @@
 </p>
 
 
-The Seeed Studio XIAO Series is a collection of thumb-sized, powerful microcontroller units (MCUs) tailor-made for space-conscious projects requiring high performance and wireless connectivity. Embodying the essence of popular hardware platforms such as ESP32, RP2040, nRF52840, and SAMD21, the Arduino-compatible XIAO series is the perfect toolset for you to embrace tiny machine learning (TinyML) on the Edge. The whole XIAO Series features compact design with all SMD components placed on the same side of the board, so designers can easily integrate XIAO into their boards for rapid mass production.
+The Seeed Studio XIAO Series is a collection of thumb-sized, powerful microcontroller units (MCUs) tailor-made for space-conscious projects requiring high performance and wireless connectivity. Embodying the essence of popular hardware platforms such as ESP32, Raspberry Pi, Nordic and SAMD21, the Arduino-compatible XIAO series is the perfect toolset for you to embrace tiny machine learning (TinyML) on the Edge. The whole XIAO Series features compact design with all SMD components placed on the same side of the board, so designers can easily integrate XIAO into their boards for rapid mass production.
 
 This repository is the official GitHub Project Hub for the XIAO Series, serving as an aggregated entry point for selection guidance, technical documentation, internal reference projects, and community-driven DIY works.
 
@@ -141,7 +141,7 @@ This repository is the official GitHub Project Hub for the XIAO Series, serving 
 - 3D models
 - Factory firmware
 
-💡 Alternatively, you can refer to this comprehensive guide—arguably the most detailed selection guide in XIAO's history—*[Meet the Seeeduino XIAO Family](https://dronebotworkshop.com/seeeduino-xiao-family/)*, with special thanks to [DroneBot Workshop](https://dronebotworkshop.com/) for their contribution.
+💡 Alternatively, you can refer to this comprehensive guide—arguably the most detailed selection guide in XIAO's history—*[Meet the Seeed Studio XIAO Family](https://dronebotworkshop.com/seeeduino-xiao-family/)*, with special thanks to [DroneBot Workshop](https://dronebotworkshop.com/) for their contribution.
 
 ### XIAO Add-ons
 
@@ -183,9 +183,9 @@ The page covers a wide range of topics, including:
 
 These projects are hands-on reproductions and validations of popular industry trends and real-world use cases, created by our internal engineers and shared in this repository’s `projects` folder. For each project, we include clear and practical step-by-step instructions in the project’s `README.md` file, so you can easily follow along and try it yourself. The projects currently available include:
 
-- [XIAO_ESP32-C3_BLE_ESPresense](reference-projects/XIAO_ESP32-C3_BLE_ESPresense)
-- [XIAO_ESP32_CSI_Espectre](reference-projects/XIAO_ESP32_CSI_Espectre)
-- more coming soon…
+- [XIAO_ESP32-C3_BLE_ESPresense](projects/reference-projects/XIAO_ESP32-C3_BLE_ESPresense)
+- [XIAO_ESP32_CSI_Espectre](projects/reference-projects/XIAO_ESP32_CSI_Espectre)
+- [More coming soon…](projects/reference-projects)
 
 ---
 
@@ -195,12 +195,12 @@ Welcome to the Community DIY Projects! This section is dedicated to collecting, 
 
 ### XIAO USE CASE
 
-<p align="center" width="100%"><a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/community-diy-project/XIAO_USE_CASE.pdf">
+<p align="center" width="100%"><a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects/community-diy-project/XIAO_USE_CASE.pdf">
 <img src="/image/xiao_use_case.png" alt="alt text" width="1000">
 </a>
 </p>
 
-We have curated over a hundred high-quality community projects in [XIAO USE CASES](community-diy-projects/XIAO_USE_CASE.pdf), where you can explore projects related to:  
+We have curated over a hundred high-quality community projects in [XIAO USE CASES](projects/community-diy-projects/XIAO_USE_CASE.pdf), where you can explore projects related to:  
 - Wearables  
 - Robotics  
 - Smart Home  
@@ -228,7 +228,7 @@ Both `hardware-focused` and `software-focused` projects are welcome, and you can
 
 1. Fork this repository
 
-2. Create a new file under the community-diy-projects/ directory. File name format:
+2. Create a new file under the projects/community-diy-projects/ directory. File name format:
 	```
 	XIAO_<ChipPlatform>_<KeyTech>_<ProjectName>
 	# KeyTech: hardware, software, or protocol, or framework…
@@ -304,12 +304,4 @@ We’re using this Discussion as a platform to connect with and get valuable fee
 - [Seeed Studio Youtube](https://www.youtube.com/c/SeeedStudioSZ-)
 - [Seeed Studio Instagram](https://www.instagram.com/seeedstudio/)
 
-
-
-1，把两个projects合并到一个文件夹，再分两个目录，把相关链接进行修改
-2，MEET XIAO ……名字改一下
-3，开头芯片名字改成厂商名字
-4，more coming soon添加连接，
-5，图片可能需要改
-6，删除。vscode 和。ds_strod这两个文件
 
