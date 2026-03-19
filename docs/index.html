@@ -8,146 +8,409 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh; padding: 20px;
+            background: #004966;
+            min-height: 100vh;
+            padding: 24px 20px;
         }
-        .container { max-width: 1200px; margin: 0 auto; }
-        header { text-align: center; color: white; margin-bottom: 30px; }
-        header h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
-        header p { font-size: 1.1rem; opacity: 0.9; }
-        .lang-switch { position: absolute; top: 20px; right: 20px; }
+        .container { max-width: 1280px; margin: 0 auto; }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .header-text h1 {
+            font-size: 2rem;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header-text h1 span { color: #8FC31F; }
+        .header-text p {
+            font-size: 0.95rem;
+            color: rgba(255,255,255,0.65);
+            margin-top: 4px;
+        }
         .lang-btn {
-            padding: 8px 16px; border: 2px solid white; background: transparent;
-            color: white; border-radius: 20px; cursor: pointer; font-size: 0.9rem;
+            padding: 7px 18px;
+            border: 2px solid rgba(255,255,255,0.4);
+            background: transparent;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: border-color 0.2s, background 0.2s;
+            white-space: nowrap;
         }
-        .lang-btn:hover { background: white; color: #667eea; }
+        .lang-btn:hover { border-color: #8FC31F; background: rgba(143,195,31,0.12); }
+
+        /* Filters */
         .filters {
-            background: white; border-radius: 12px; padding: 20px;
-            margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
         }
-        .filter-group { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
         .filter-group:last-child { margin-bottom: 0; }
-        .filter-group label { font-weight: 600; color: #333; min-width: 70px; }
+        .filter-group label {
+            font-weight: 600;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.8rem;
+            min-width: 60px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
         .filter-btn {
-            padding: 8px 16px; border: 2px solid #667eea; background: white;
-            border-radius: 20px; cursor: pointer; font-size: 0.9rem;
+            padding: 5px 14px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: transparent;
+            color: rgba(255,255,255,0.75);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.15s;
         }
-        .filter-btn:hover { background: #f0f0ff; }
-        .filter-btn.active { background: #667eea; color: white; }
-        .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
-        .project-card {
-            background: white; border-radius: 12px; padding: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s;
+        .filter-btn:hover {
+            border-color: #8FC31F;
+            color: #8FC31F;
         }
-        .project-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
-        .project-card h3 { color: #333; margin-bottom: 10px; font-size: 1.2rem; }
-        .project-card p { color: #666; font-size: 0.95rem; line-height: 1.5; margin-bottom: 15px; }
-        .project-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 15px; }
-        .tag { padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 500; }
-        .tag-board { background: #e3f2fd; color: #1565c0; }
-        .tag-category { background: #f3e5f5; color: #7b1fa2; }
-        .tag-year { background: #fff3e0; color: #e65100; }
-        .tag-author { background: #e8f5e9; color: #2e7d32; }
-        .tag-official { background: #fce4ec; color: #c2185b; }
-        .tag-community { background: #e0f2f1; color: #00695c; }
+        .filter-btn.active {
+            background: #8FC31F;
+            border-color: #8FC31F;
+            color: #004966;
+            font-weight: 600;
+        }
+
+        /* Stats */
+        .stats {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.85rem;
+            margin-bottom: 12px;
+            padding-left: 2px;
+        }
+
+        /* Table wrapper for horizontal scroll on mobile */
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* Projects table */
+        .projects-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255,255,255,0.04);
+        }
+        .projects-table thead tr {
+            background: rgba(0,0,0,0.25);
+        }
+        .projects-table thead th {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.5);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            white-space: nowrap;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+        .projects-table thead th:first-child { width: 44px; text-align: center; }
+
+        /* Data rows */
+        .project-row {
+            cursor: pointer;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            transition: background 0.15s;
+        }
+        .project-row:hover { background: rgba(143,195,31,0.07); }
+        .project-row.expanded { background: rgba(143,195,31,0.1); }
+        .project-row td {
+            padding: 13px 16px;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.88);
+            vertical-align: middle;
+        }
+        .project-row td:first-child {
+            text-align: center;
+            color: rgba(255,255,255,0.3);
+            font-size: 0.8rem;
+            font-variant-numeric: tabular-nums;
+        }
+        .project-name {
+            font-weight: 600;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .expand-icon {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.3);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+        }
+        .project-row.expanded .expand-icon { transform: rotate(90deg); color: #8FC31F; }
+
+        /* Tags */
+        .tag {
+            display: inline-block;
+            padding: 2px 9px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .tag-board    { background: rgba(0,73,102,0.6);   color: #7dd3f0; border: 1px solid rgba(125,211,240,0.2); }
+        .tag-category { background: rgba(143,195,31,0.15); color: #b8e05a; border: 1px solid rgba(143,195,31,0.25); }
+        .tag-official { background: rgba(255,200,50,0.12); color: #fcd34d; border: 1px solid rgba(252,211,77,0.2); }
+        .tag-community{ background: rgba(143,195,31,0.1);  color: #a3d43f; border: 1px solid rgba(143,195,31,0.2); }
+
+        /* Detail rows */
+        .detail-row { display: none; }
+        .detail-row.open { display: table-row; }
+        .detail-cell {
+            padding: 0;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+        .detail-inner {
+            padding: 18px 56px 20px 56px;
+            background: rgba(0,0,0,0.2);
+            border-top: 1px solid rgba(143,195,31,0.2);
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+        .detail-preview {
+            flex-shrink: 0;
+            width: 260px;
+            max-width: 260px;
+        }
+        .detail-preview img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.1);
+            display: block;
+        }
+        .detail-body { flex: 1; min-width: 0; }
+        .detail-description {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9rem;
+            line-height: 1.65;
+            margin-bottom: 16px;
+        }
         .project-link {
-            display: inline-block; padding: 10px 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white; text-decoration: none; border-radius: 8px;
-            font-weight: 500; transition: opacity 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 20px;
+            background: #8FC31F;
+            color: #004966;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            transition: background 0.15s, transform 0.1s;
         }
-        .project-link:hover { opacity: 0.9; }
-        .stats { text-align: center; color: white; margin-bottom: 20px; font-size: 1rem; }
-        .no-results { text-align: center; color: white; padding: 40px; font-size: 1.2rem; }
-        .footer { text-align: center; color: white; opacity: 0.7; margin-top: 40px; font-size: 0.9rem; }
-        .footer a { color: white; }
+        .project-link:hover { background: #a0d422; transform: translateY(-1px); }
+
+        @media (max-width: 720px) {
+            .detail-inner { flex-direction: column; }
+            .detail-preview { width: 100%; max-width: 100%; }
+            .detail-preview img { height: 180px; }
+        }
+
+        /* No results */
+        .no-results {
+            text-align: center;
+            color: rgba(255,255,255,0.45);
+            padding: 60px 20px;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.35);
+            margin-top: 32px;
+            font-size: 0.82rem;
+        }
+        .footer a { color: rgba(143,195,31,0.8); text-decoration: none; }
+        .footer a:hover { color: #8FC31F; }
+
+        @media (max-width: 640px) {
+            .header-text h1 { font-size: 1.5rem; }
+            .detail-inner { padding: 14px 16px; gap: 16px; }
+        }
     </style>
 </head>
 <body>
-    <div class="lang-switch">
-        <button class="lang-btn" id="langBtn" onclick="toggleLang()">中文</button>
-    </div>
     <div class="container">
         <header>
-            <h1 id="title">🚀 XIAO Project Hub</h1>
-            <p id="subtitle">Discover what you can build with XIAO</p>
+            <div class="header-text">
+                <h1 id="title">XIAO <span>Project Hub</span></h1>
+                <p id="subtitle">Discover what you can build with XIAO</p>
+            </div>
+            <button class="lang-btn" id="langBtn" onclick="toggleLang()">中文</button>
         </header>
+
         <div class="filters">
             <div class="filter-group" id="year-filters">
-                <label id="label-year">Year:</label>
+                <label id="label-year">Year</label>
                 <button class="filter-btn active" data-filter="year" data-value="" id="btn-all-year">All</button>
             </div>
             <div class="filter-group" id="type-filters">
-                <label id="label-type">Source:</label>
+                <label id="label-type">Source</label>
                 <button class="filter-btn active" data-filter="author_type" data-value="" id="btn-all-type">All</button>
             </div>
             <div class="filter-group" id="board-filters">
-                <label id="label-board">Board:</label>
+                <label id="label-board">Board</label>
                 <button class="filter-btn active" data-filter="board" data-value="" id="btn-all-board">All</button>
             </div>
             <div class="filter-group" id="category-filters">
-                <label id="label-category">Category:</label>
+                <label id="label-category">Category</label>
                 <button class="filter-btn active" data-filter="category" data-value="" id="btn-all-cat">All</button>
             </div>
         </div>
+
         <div class="stats" id="stats"></div>
-        <div class="projects-grid" id="projects"></div>
-        <div class="no-results" id="no-results" style="display: none;">No matching projects found 😢</div>
+
+        <div class="table-wrapper" id="table-wrapper">
+            <table class="projects-table" id="projects-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th id="th-name">Project</th>
+                        <th id="th-board">Board</th>
+                        <th id="th-category">Category</th>
+                        <th id="th-source">Source</th>
+                        <th id="th-year">Year</th>
+                        <th id="th-author">Author</th>
+                    </tr>
+                </thead>
+                <tbody id="projects"></tbody>
+            </table>
+            <div class="no-results" id="no-results" style="display:none;"></div>
+        </div>
+
         <div class="footer">
             <p id="footer-text">Data source: <a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | Contributions welcome!</p>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
     <script>
+        const YAML_URLS = [
+            '../projects.yaml',
+            'https://raw.githubusercontent.com/limengdu/OSHW-XIAO-Series/main/projects.yaml'
+        ];
+
         const LANG = {
             en: {
-                title: "🚀 XIAO Project Hub",
-                subtitle: "Discover what you can build with XIAO",
-                labelYear: "Year:", labelType: "Source:", labelBoard: "Board:", labelCategory: "Category:",
-                btnAll: "All", btnOfficial: "Official", btnCommunity: "Community",
-                stats: n => `${n} projects`, noResults: "No matching projects found 😢", viewProject: "View Project →",
-                footer: 'Data source: <a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | Contributions welcome!',
-                langBtn: "中文"
+                title: ['XIAO ', 'Project Hub'],
+                subtitle: 'Discover what you can build with XIAO',
+                labelYear: 'Year', labelType: 'Source', labelBoard: 'Board', labelCategory: 'Category',
+                btnAll: 'All', btnOfficial: 'Official', btnCommunity: 'Community',
+                thName: 'Project', thBoard: 'Board', thCategory: 'Category',
+                thSource: 'Source', thYear: 'Year', thAuthor: 'Author',
+                stats: n => `${n} project${n !== 1 ? 's' : ''}`,
+                loading: 'Loading projects...',
+                loadError: 'Failed to load projects.yaml.',
+                noResults: 'No matching projects found.',
+                viewProject: 'View Project →',
+                footer: 'Data source: <a href="https://github.com/limengdu/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | Contributions welcome!',
+                langBtn: '中文'
             },
             zh: {
-                title: "🚀 XIAO 项目中心",
-                subtitle: "探索用 XIAO 能做的精彩项目",
-                labelYear: "年份：", labelType: "来源：", labelBoard: "型号：", labelCategory: "场景：",
-                btnAll: "全部", btnOfficial: "官方", btnCommunity: "社区",
-                stats: n => `共 ${n} 个项目`, noResults: "没有找到匹配的项目 😢", viewProject: "查看项目 →",
-                footer: '数据来源：<a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | 欢迎贡献项目！',
-                langBtn: "English"
+                title: ['XIAO ', '项目中心'],
+                subtitle: '探索用 XIAO 能做的精彩项目',
+                labelYear: '年份', labelType: '来源', labelBoard: '型号', labelCategory: '场景',
+                btnAll: '全部', btnOfficial: '官方', btnCommunity: '社区',
+                thName: '项目名称', thBoard: '开发板', thCategory: '分类',
+                thSource: '来源', thYear: '年份', thAuthor: '作者',
+                stats: n => `共 ${n} 个项目`,
+                loading: '正在加载项目数据...',
+                loadError: '无法加载 projects.yaml。',
+                noResults: '没有找到匹配的项目。',
+                viewProject: '查看项目 →',
+                footer: '数据来源：<a href="https://github.com/limengdu/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | 欢迎贡献项目！',
+                langBtn: 'English'
             }
         };
-        const PROJECTS_DATA = [
-            {name:{en:"ESP-FLY",zh:"ESP-FLY 微型无人机"},description:{en:"A pocket-sized quadcopter built with XIAO ESP32-S3 and a custom PCB, controlled over phone Wi-Fi",zh:"基于 XIAO ESP32-S3 的掌上四轴无人机，使用自定义 PCB，通过手机 Wi-Fi 控制"},board:"XIAO ESP32-S3",category:{en:"Robotics",zh:"机器人"},year:2025,author:{en:"Max Imagination",zh:"Max Imagination"},author_type:"Community",link:"https://www.youtube.com/watch?v=V_mZsiZcy7s"},
-            {name:{en:"Cyberpunk Pocket Watch",zh:"赛博朋克怀表"},description:{en:"A cyberpunk-style pocket watch powered by XIAO RP2040 and 1.27'' Round Display",zh:"基于 XIAO RP2040 和 1.27 英寸圆形显示屏的赛博朋克风格怀表"},board:"XIAO RP2040",category:{en:"Wearables",zh:"可穿戴"},year:2025,author:{en:"abe's project",zh:"abe's project"},author_type:"Community",link:"https://www.youtube.com/watch?v=l75A9TUMXOs"},
-            {name:{en:"Smart Home Assistant Sensor",zh:"智能家居传感器"},description:{en:"A beginner-friendly tutorial using ESPHome and XIAO ESP32-C6 to build custom smart home sensors",zh:"使用 ESPHome 和 XIAO ESP32-C6 构建自定义智能家居传感器的入门教程"},board:"XIAO ESP32-C6",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"FEATURE",zh:"FEATURE"},author_type:"Community",link:"https://www.youtube.com/watch?v=llA2mdCh7Kc"},
-            {name:{en:"Dasai Mochi",zh:"Dasai Mochi 电子宠物"},description:{en:"A digital pocket-pet animation running on SSD1306 OLED powered by XIAO ESP32-S3",zh:"在 SSD1306 OLED 上运行的数字宠物动画，由 XIAO ESP32-S3 驱动"},board:"XIAO ESP32-S3",category:{en:"AI Gadget",zh:"AI Gadget"},year:2025,author:{en:"upir",zh:"upir"},author_type:"Community",link:"https://www.youtube.com/watch?v=QOoszpg0BsM"},
-            {name:{en:"Wi-Fi HaLow Cam",zh:"Wi-Fi HaLow 远程摄像头"},description:{en:"A tiny FPV camera based on XIAO ESP32-S3 Sense with Wi-Fi HaLow for long-range video streaming",zh:"基于 XIAO ESP32-S3 Sense 的微型 FPV 摄像头，搭配 Wi-Fi HaLow 实现超远距离视频传输"},board:"XIAO ESP32-S3 Sense",category:{en:"Telecommunication",zh:"通信"},year:2025,author:{en:"Data Slayer",zh:"Data Slayer"},author_type:"Community",link:"https://www.youtube.com/watch?v=0XhqjaGmKiw"},
-            {name:{en:"Make Your Own Zigbee Devices",zh:"自制 Zigbee 设备"},description:{en:"A step-by-step video walkthrough showing how to build Zigbee-enabled smart sensors using XIAO ESP32-C6",zh:"逐步视频教程，展示如何使用 XIAO ESP32-C6 构建支持 Zigbee 的智能家居传感器"},board:"XIAO ESP32-C6",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"TechTeamGB",zh:"TechTeamGB"},author_type:"Community",link:"https://www.youtube.com/watch?v=GOFw5GytG5E"},
-            {name:{en:"DIY Mini FPV Tank",zh:"DIY 迷你 FPV 坦克"},description:{en:"A smartphone-controlled mini FPV tank with 3D-printed chassis and real-time video streaming",zh:"手机控制的迷你 FPV 坦克，采用 3D 打印底盘，结合实时视频流和机器人技术"},board:"XIAO ESP32-S3 Sense",category:{en:"Robotics",zh:"机器人"},year:2025,author:{en:"The Wrench",zh:"The Wrench"},author_type:"Community",link:"https://www.youtube.com/watch?v=0dbdZrH8toE"},
-            {name:{en:"OpenAI Glasses for Navigation",zh:"OpenAI 导航眼镜"},description:{en:"A smart navigation and assistance system for the visually impaired with tactile guidance and voice interaction",zh:"为视障人士设计的智能导航辅助系统，具备触觉引导、物体识别和语音交互功能"},board:"XIAO ESP32-S3 Sense",category:{en:"Healthcare",zh:"健康护理"},year:2025,author:{en:"AI-FanGe",zh:"AI-FanGe"},author_type:"Community",link:"https://github.com/AI-FanGe/OpenAIglasses_for_Navigation"},
-            {name:{en:"Flock You",zh:"Flock You 摄像头检测器"},description:{en:"Firmware for XIAO ESP32-S3 that detects nearby surveillance cameras via Wi-Fi and BLE scanning",zh:"XIAO ESP32-S3 固件，通过 Wi-Fi 和 BLE 扫描检测附近的监控摄像头"},board:"XIAO ESP32-S3",category:{en:"Tools & Accessories",zh:"工具配件"},year:2025,author:{en:"colonelpanichacks",zh:"colonelpanichacks"},author_type:"Community",link:"https://github.com/colonelpanichacks/flock-you"},
-            {name:{en:"AntiHunter Perimeter Defense System",zh:"AntiHunter 周界防御系统"},description:{en:"An open-source mesh-based perimeter defense system with Wi-Fi/BLE scanning and intrusion alerts",zh:"开源网状周界防御系统，支持 Wi-Fi/BLE 扫描、GPS 定位和入侵警报"},board:"XIAO ESP32-S3",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"lukeswitz",zh:"lukeswitz"},author_type:"Community",link:"https://github.com/lukeswitz/AntiHunter"},
-            {name:{en:"ESPHome ePaper Dashboard",zh:"ESPHome 电子墨水屏仪表板"},description:{en:"A low-power Home Assistant dashboard on XIAO 7.5'' ePaper panel showing weather and system metrics",zh:"基于 XIAO 7.5 英寸电子墨水屏的低功耗 Home Assistant 仪表板"},board:"XIAO ESP32",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"r-morato",zh:"r-morato"},author_type:"Community",link:"https://github.com/r-morato/HASS-epaper-display"},
-            {name:{en:"ZMK Dongle Screen YADS",zh:"ZMK 键盘接收器屏幕"},description:{en:"A wireless keyboard dongle display built with XIAO nRF52840 and ZMK firmware",zh:"基于 XIAO nRF52840 和 ZMK 固件的无线键盘接收器显示屏"},board:"XIAO nRF52840",category:{en:"Mechanical Keyboard",zh:"机械键盘"},year:2025,author:{en:"janpfischer",zh:"janpfischer"},author_type:"Community",link:"https://github.com/janpfischer/zmk-dongle-screen"},
-            {name:{en:"Seeed Home Assistant Discovery",zh:"Seeed Home Assistant 自动发现"},description:{en:"A lightweight solution simplifying XIAO ESP32/nRF52840 connection to Home Assistant",zh:"简化 XIAO ESP32/nRF52840 连接 Home Assistant 的轻量级方案"},board:"XIAO ESP32",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"Mengdu Li",zh:"Mengdu Li"},author_type:"Community",link:"https://github.com/limengdu/Seeed-Homeassistant-Discovery"},
-            {name:{en:"LumiTrap Solar UV Bug Trap",zh:"LumiTrap 太阳能紫外线诱虫器"},description:{en:"A 3D-printed, solar-powered UV insect trap powered by XIAO SAMD21 for eco-friendly pest control",zh:"3D 打印的太阳能紫外线诱虫器，由 XIAO SAMD21 驱动"},board:"XIAO SAMD21",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"Gokul",zh:"Gokul"},author_type:"Community",link:"https://www.instructables.com/LumiTrap-3D-Printed-Solar-UV-Bug-Trap-for-Eco-Frie/"},
-            {name:{en:"Spine-like Robot Arm",zh:"仿脊椎机械臂"},description:{en:"3D-printed spine-inspired segments with servo-driven joints and modular gripper",zh:"3D 打印仿脊椎分段结构，配备舵机驱动关节和模块化夹爪"},board:"XIAO nRF52840 Sense",category:{en:"Robotics",zh:"机器人"},year:2025,author:{en:"Markus Opitz",zh:"Markus Opitz"},author_type:"Community",link:"https://www.instructables.com/Spine-like-Robot-Arm-With-Gripper/"},
-            {name:{en:"Gus 2.0",zh:"Gus 2.0 情绪机器人"},description:{en:"A desktop robot powered by XIAO ESP32-C3 with sensors monitoring room health through emotions",zh:"由 XIAO ESP32-C3 驱动的桌面机器人，通过表情显示房间健康状况"},board:"XIAO ESP32-C3",category:{en:"Robotics",zh:"机器人"},year:2025,author:{en:"Arpan Mondal",zh:"Arpan Mondal"},author_type:"Community",link:"https://www.instructables.com/Gus-20-Uses-Emotions-to-Indicate-Room-Health/"},
-            {name:{en:"BYTE 90",zh:"BYTE 90 复古玩具"},description:{en:"A retro-inspired, interactive designer toy built with XIAO ESP32-S3",zh:"受复古启发的交互式设计师玩具，基于 XIAO ESP32-S3"},board:"XIAO ESP32-S3",category:{en:"AI Gadget",zh:"AI Gadget"},year:2025,author:{en:"Alex Vong",zh:"Alex Vong"},author_type:"Community",link:"https://labs.alxvtoronto.com/collections/byte-90"},
-            {name:{en:"ESP-DIVE",zh:"ESP-DIVE 潜水器"},description:{en:"A DIY submarine to explore underwater in first-person view using XIAO ESP32-S3 Sense",zh:"基于 XIAO ESP32-S3 Sense 的 DIY 潜水器，可通过第一人称视角探索水下世界"},board:"XIAO ESP32-S3 Sense",category:{en:"Robotics",zh:"机器人"},year:2025,author:{en:"Max Imagination",zh:"Max Imagination"},author_type:"Community",link:"https://www.instructables.com/ESP-DIVE-Build-an-ESP32-RC-Submarine-With-FPV-Came/"},
-            {name:{en:"Hybrid Clock",zh:"混合时钟"},description:{en:"A wall-mounted clock featuring colorful 3D-printed dial with synchronized analog and digital displays",zh:"壁挂式时钟，采用彩色 3D 打印表盘，同步模拟和数字显示"},board:"XIAO ESP32-C6",category:{en:"Tools & Accessories",zh:"工具配件"},year:2025,author:{en:"shiura",zh:"shiura"},author_type:"Community",link:"https://www.instructables.com/Hybrid-Clock-Mechanical-Fusion-of-Digital-and-Anal/"},
-            {name:{en:"Prototype Modular Smart Glasses",zh:"模块化智能眼镜原型"},description:{en:"A DIY open-tech platform transforming regular glasses into customizable smart eyewear",zh:"DIY 开放技术平台，将普通眼镜转变为可定制的智能眼镜"},board:"XIAO ESP32-S3 Sense",category:{en:"Wearables",zh:"可穿戴"},year:2025,author:{en:"Paul Stefaan Mooij",zh:"Paul Stefaan Mooij"},author_type:"Community",link:"https://www.hackster.io/psmooij/pmsg-prototype-modular-smart-glasses-8bd4e6"},
-            {name:{en:"ESP32-C3 BLE Indoor Positioning",zh:"ESP32-C3 BLE 室内定位"},description:{en:"Indoor positioning using XIAO ESP32-C3 and ESPresense for smart home scene tracking",zh:"使用 XIAO ESP32-C3 和 ESPresense 实现 BLE 室内定位"},board:"XIAO ESP32-C3",category:{en:"Smart Home",zh:"智能家居"},year:2025,author:{en:"Official",zh:"官方"},author_type:"Official",link:"https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32-C3_BLE_ESPresense"},
-            {name:{en:"ESP32 CSI Human Detection",zh:"ESP32 CSI 人体检测"},description:{en:"Non-contact human detection using WiFi CSI signals for security and health monitoring",zh:"利用 WiFi CSI 信号进行非接触式人体检测"},board:"XIAO ESP32",category:{en:"Healthcare",zh:"健康护理"},year:2025,author:{en:"Official",zh:"官方"},author_type:"Official",link:"https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32_CSI_Espectre"}
-        ];
+
+        let PROJECTS_DATA = [];
         let currentLang = 'en';
         let activeFilters = { year: '', author_type: '', board: '', category: '' };
-        function toggleLang() { currentLang = currentLang === 'en' ? 'zh' : 'en'; updateLang(); renderProjects(); initFilters(); }
+        let openRowIndex = -1;
+
+        function t(obj) { return typeof obj === 'string' ? obj : (obj[currentLang] || obj.en); }
+
+        // Returns true if the project has content in the given language.
+        // A plain string value (not {en/zh}) is treated as language-agnostic.
+        function hasLang(p, lang) {
+            if (typeof p.name === 'string') return true;
+            return !!(p.name && p.name[lang]);
+        }
+
+        function getPreviewImage(p) {
+            let url = p.image || null;
+            if (!url) {
+                const ytMatch = p.link && p.link.match(/youtube\.com\/watch\?v=([\w-]+)/);
+                if (ytMatch) return `https://img.youtube.com/vi/${ytMatch[1]}/hqdefault.jpg`;
+                return null;
+            }
+            // Convert GitHub blob URL to raw URL for direct image display
+            // e.g. https://github.com/user/repo/blob/main/path/img.jpg
+            //   -> https://raw.githubusercontent.com/user/repo/main/path/img.jpg
+            url = url.replace(
+                /^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/(.+)$/,
+                'https://raw.githubusercontent.com/$1/$2/$3'
+            );
+            return url;
+        }
+
+        async function loadYaml() {
+            for (const url of YAML_URLS) {
+                try {
+                    const res = await fetch(url);
+                    if (!res.ok) continue;
+                    const text = await res.text();
+                    const data = jsyaml.load(text);
+                    if (data && data.projects) return data.projects;
+                } catch (e) {
+                    continue;
+                }
+            }
+            return null;
+        }
+
+        function toggleLang() {
+            currentLang = currentLang === 'en' ? 'zh' : 'en';
+            openRowIndex = -1;
+            updateLang();
+            initFilters();
+            renderProjects();
+        }
+
         function updateLang() {
             const L = LANG[currentLang];
-            document.getElementById('title').textContent = L.title;
+            const titleEl = document.getElementById('title');
+            titleEl.innerHTML = L.title[0] + '<span>' + L.title[1] + '</span>';
             document.getElementById('subtitle').textContent = L.subtitle;
             document.getElementById('label-year').textContent = L.labelYear;
             document.getElementById('label-type').textContent = L.labelType;
@@ -160,81 +423,160 @@
             document.getElementById('no-results').textContent = L.noResults;
             document.getElementById('footer-text').innerHTML = L.footer;
             document.getElementById('langBtn').textContent = L.langBtn;
+            document.getElementById('th-name').textContent = L.thName;
+            document.getElementById('th-board').textContent = L.thBoard;
+            document.getElementById('th-category').textContent = L.thCategory;
+            document.getElementById('th-source').textContent = L.thSource;
+            document.getElementById('th-year').textContent = L.thYear;
+            document.getElementById('th-author').textContent = L.thAuthor;
         }
-        function t(obj) { return typeof obj === 'string' ? obj : (obj[currentLang] || obj.en); }
+
         function initFilters() {
-            const years = [...new Set(PROJECTS_DATA.map(p => p.year))].sort((a, b) => b - a);
-            const boards = [...new Set(PROJECTS_DATA.map(p => p.board))].sort();
-            const categories = [...new Set(PROJECTS_DATA.map(p => t(p.category)))].sort();
-            const types = ['Official', 'Community'];
-            document.querySelectorAll('.filter-btn:not([id])').forEach(btn => btn.remove());
+            const langProjects = PROJECTS_DATA.filter(p => hasLang(p, currentLang));
+            const years = [...new Set(langProjects.map(p => p.year))].sort((a, b) => b - a);
+            const boards = [...new Set(langProjects.map(p => p.board))].sort();
+            const categories = [...new Set(langProjects.map(p => t(p.category)))].sort();
             const L = LANG[currentLang];
-            // Year buttons
+
+            document.querySelectorAll('.filter-btn:not([id])').forEach(btn => btn.remove());
+
             years.forEach(year => {
                 const btn = document.createElement('button');
-                btn.className = 'filter-btn'; btn.dataset.filter = 'year'; btn.dataset.value = year;
-                btn.textContent = year; document.getElementById('year-filters').appendChild(btn);
+                btn.className = 'filter-btn';
+                btn.dataset.filter = 'year';
+                btn.dataset.value = year;
+                btn.textContent = year;
+                document.getElementById('year-filters').appendChild(btn);
             });
-            // Type buttons
+
             const typeContainer = document.getElementById('type-filters');
-            types.forEach(type => {
+            [['Official', L.btnOfficial], ['Community', L.btnCommunity]].forEach(([val, label]) => {
                 const btn = document.createElement('button');
-                btn.className = 'filter-btn'; btn.dataset.filter = 'author_type'; btn.dataset.value = type;
-                btn.textContent = type === 'Official' ? L.btnOfficial : L.btnCommunity;
+                btn.className = 'filter-btn';
+                btn.dataset.filter = 'author_type';
+                btn.dataset.value = val;
+                btn.textContent = label;
                 typeContainer.appendChild(btn);
             });
-            // Board buttons
+
             boards.forEach(board => {
                 const btn = document.createElement('button');
-                btn.className = 'filter-btn'; btn.dataset.filter = 'board'; btn.dataset.value = board;
-                btn.textContent = board; document.getElementById('board-filters').appendChild(btn);
+                btn.className = 'filter-btn';
+                btn.dataset.filter = 'board';
+                btn.dataset.value = board;
+                btn.textContent = board;
+                document.getElementById('board-filters').appendChild(btn);
             });
-            // Category buttons
+
             categories.forEach(category => {
                 const btn = document.createElement('button');
-                btn.className = 'filter-btn'; btn.dataset.filter = 'category'; btn.dataset.value = category;
-                btn.textContent = category; document.getElementById('category-filters').appendChild(btn);
+                btn.className = 'filter-btn';
+                btn.dataset.filter = 'category';
+                btn.dataset.value = category;
+                btn.textContent = category;
+                document.getElementById('category-filters').appendChild(btn);
             });
+
             document.querySelectorAll('.filter-btn').forEach(btn => {
+                const active = activeFilters[btn.dataset.filter];
+                if (btn.dataset.value === String(active)) btn.classList.add('active');
                 btn.addEventListener('click', () => {
                     const filterType = btn.dataset.filter;
                     document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`).forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
                     activeFilters[filterType] = btn.dataset.value;
+                    openRowIndex = -1;
                     renderProjects();
                 });
             });
         }
+
         function renderProjects() {
-            const container = document.getElementById('projects');
+            const tbody = document.getElementById('projects');
             const noResults = document.getElementById('no-results');
             const stats = document.getElementById('stats');
+            const tableWrapper = document.getElementById('table-wrapper');
             const L = LANG[currentLang];
-            let filtered = PROJECTS_DATA.filter(p => {
+
+            const filtered = PROJECTS_DATA.filter(p => {
+                if (!hasLang(p, currentLang)) return false;
                 if (activeFilters.year && p.year != activeFilters.year) return false;
                 if (activeFilters.author_type && p.author_type !== activeFilters.author_type) return false;
                 if (activeFilters.board && p.board !== activeFilters.board) return false;
                 if (activeFilters.category && t(p.category) !== activeFilters.category) return false;
                 return true;
             });
+
             stats.textContent = L.stats(filtered.length);
-            if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = '';
+                noResults.style.display = 'block';
+                tableWrapper.querySelector('table').style.display = 'none';
+                return;
+            }
+
             noResults.style.display = 'none';
-            container.innerHTML = filtered.map(p => `
-                <div class="project-card">
-                    <h3>${t(p.name)}</h3>
-                    <p>${t(p.description)}</p>
-                    <div class="project-meta">
-                        <span class="tag tag-year">${p.year}</span>
-                        <span class="tag tag-board">${p.board}</span>
-                        <span class="tag tag-category">${t(p.category)}</span>
-                        <span class="tag ${p.author_type === 'Official' ? 'tag-official' : 'tag-community'}">${t(p.author)}</span>
-                    </div>
-                    <a href="${p.link}" target="_blank" class="project-link">${L.viewProject}</a>
-                </div>
-            `).join('');
+            tableWrapper.querySelector('table').style.display = '';
+
+            tbody.innerHTML = filtered.map((p, i) => {
+                const isOfficial = p.author_type === 'Official';
+                const sourceTag = `<span class="tag ${isOfficial ? 'tag-official' : 'tag-community'}">${isOfficial ? L.btnOfficial : L.btnCommunity}</span>`;
+                const img = getPreviewImage(p);
+                const imgHtml = img ? `<div class="detail-preview"><img src="${img}" alt="${t(p.name)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+                return `
+                <tr class="project-row" data-idx="${i}" onclick="toggleDetail(${i}, this)">
+                    <td>${i + 1}</td>
+                    <td><span class="project-name"><span class="expand-icon">&#9658;</span>${t(p.name)}</span></td>
+                    <td><span class="tag tag-board">${p.board}</span></td>
+                    <td><span class="tag tag-category">${t(p.category)}</span></td>
+                    <td>${sourceTag}</td>
+                    <td>${p.year}</td>
+                    <td>${t(p.author)}</td>
+                </tr>
+                <tr class="detail-row" id="detail-${i}">
+                    <td class="detail-cell" colspan="7">
+                        <div class="detail-inner">
+                            ${imgHtml}
+                            <div class="detail-body">
+                                <p class="detail-description">${t(p.description)}</p>
+                                <a href="${p.link}" target="_blank" class="project-link" onclick="event.stopPropagation()">${L.viewProject}</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>`;
+            }).join('');
         }
-        updateLang(); initFilters(); renderProjects();
+
+        function toggleDetail(idx, row) {
+            const detailRow = document.getElementById('detail-' + idx);
+            const isOpen = detailRow.classList.contains('open');
+
+            document.querySelectorAll('.detail-row.open').forEach(r => r.classList.remove('open'));
+            document.querySelectorAll('.project-row.expanded').forEach(r => r.classList.remove('expanded'));
+
+            if (!isOpen) {
+                detailRow.classList.add('open');
+                row.classList.add('expanded');
+                openRowIndex = idx;
+            } else {
+                openRowIndex = -1;
+            }
+        }
+
+        (async () => {
+            updateLang();
+            document.getElementById('stats').textContent = LANG[currentLang].loading;
+
+            const projects = await loadYaml();
+            if (!projects) {
+                document.getElementById('stats').textContent = LANG[currentLang].loadError;
+                return;
+            }
+            PROJECTS_DATA = projects;
+            initFilters();
+            renderProjects();
+        })();
     </script>
 </body>
 </html>

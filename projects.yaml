@@ -140,6 +140,7 @@ projects:
       zh: "AI-FanGe"
     author_type: "Community"
     link: "https://github.com/AI-FanGe/OpenAIglasses_for_Navigation"
+    image: "https://github.com/user-attachments/assets/bc7d1aac-a9e9-4ef8-9d67-224708d0c9fd"
 
   - name:
       en: "Flock You"
@@ -191,6 +192,7 @@ projects:
       zh: "r-morato"
     author_type: "Community"
     link: "https://github.com/r-morato/HASS-epaper-display"
+    image: "https://github.com/user-attachments/assets/8d11993c-9ca8-453f-935b-2174f4e9778e"
 
   - name:
       en: "ZMK Dongle Screen YADS"
@@ -208,6 +210,7 @@ projects:
       zh: "janpfischer"
     author_type: "Community"
     link: "https://github.com/janpfischer/zmk-dongle-screen"
+    image: "https://github.com/janpfischer/zmk-dongle-screen/blob/main/docs/images/screen.jpg"
 
   - name:
       en: "Seeed Home Assistant Discovery"
@@ -242,6 +245,7 @@ projects:
       zh: "Gokul"
     author_type: "Community"
     link: "https://www.instructables.com/LumiTrap-3D-Printed-Solar-UV-Bug-Trap-for-Eco-Frie/"
+    image: "https://content.instructables.com/FOP/CM09/MBP3RJ8D/FOPCM09MBP3RJ8D.jpg?_gl=1*1g4qwdj*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTA5ODgkajYwJGwwJGgw"
 
   - name:
       en: "Spine-like Robot Arm"
@@ -259,6 +263,7 @@ projects:
       zh: "Markus Opitz"
     author_type: "Community"
     link: "https://www.instructables.com/Spine-like-Robot-Arm-With-Gripper/"
+    image: "https://content.instructables.com/F3V/HJ5M/M6XMWN7X/F3VHJ5MM6XMWN7X.jpg?_gl=1*1su7zaw*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTEwNDAkajgkbDAkaDA."
 
   - name:
       en: "Gus 2.0"
@@ -276,6 +281,7 @@ projects:
       zh: "Arpan Mondal"
     author_type: "Community"
     link: "https://www.instructables.com/Gus-20-Uses-Emotions-to-Indicate-Room-Health/"
+    image: "https://content.instructables.com/F22/NR5G/M8OIAQPH/F22NR5GM8OIAQPH.jpg?_gl=1*abe4yy*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTExOTckajU2JGwwJGgw"
 
   - name:
       en: "BYTE 90"
@@ -293,6 +299,7 @@ projects:
       zh: "Alex Vong"
     author_type: "Community"
     link: "https://labs.alxvtoronto.com/collections/byte-90"
+    image: "https://labs.alxvtoronto.com/cdn/shop/collections/BC02.png?v=1744720377&width=1500"
 
   - name:
       en: "ESP-DIVE"
@@ -310,6 +317,7 @@ projects:
       zh: "Max Imagination"
     author_type: "Community"
     link: "https://www.instructables.com/ESP-DIVE-Build-an-ESP32-RC-Submarine-With-FPV-Came/"
+    image: "https://content.instructables.com/FE9/5MXR/MGJQ7AZL/FE95MXRMGJQ7AZL.jpg?frame=true&width=1024&height=1024&fit=bounds"
 
   - name:
       en: "Hybrid Clock"
@@ -327,6 +335,7 @@ projects:
       zh: "shiura"
     author_type: "Community"
     link: "https://www.instructables.com/Hybrid-Clock-Mechanical-Fusion-of-Digital-and-Anal/"
+    image: "https://content.instructables.com/FZ9/MP0K/M7YSDPJ1/FZ9MP0KM7YSDPJ1.jpg?frame=true&width=764&height=1024&fit=bounds"
 
   - name:
       en: "Prototype Modular Smart Glasses"
@@ -344,6 +353,7 @@ projects:
       zh: "Paul Stefaan Mooij"
     author_type: "Community"
     link: "https://www.hackster.io/psmooij/pmsg-prototype-modular-smart-glasses-8bd4e6"
+    image: "https://hackster.imgix.net/uploads/attachments/1799873/_MmR47vaw5B.blob?auto=compress%2Cformat&w=900&h=675&fit=min"
 
   # ========== Official Reference Projects ==========
   - name:
