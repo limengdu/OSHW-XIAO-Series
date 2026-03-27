@@ -60,7 +60,18 @@ The SPI flash chip is connected through the **solder pad on the underside** of t
 |------|---------|
 | **flashrom** | Open-source SPI flash programming utility |
 
-Download flashrom for your OS: [flashrom.org/Downloads](https://flashrom.org/Downloads)
+Install flashrom via your package manager:
+
+```bash
+# Debian/Ubuntu
+sudo apt install flashrom
+
+# Fedora
+sudo yum install flashrom
+
+# macOS
+brew install flashrom
+```
 
 ---
 
