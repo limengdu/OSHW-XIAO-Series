@@ -1,7 +1,7 @@
 # XIAO RP2040 Serprog
 
 <p align="center">
-    <img width="400" height="auto" alt="Grove Shield for XIAO" src="./pic/hardware-overview.png">
+    <img width="200" height="auto" alt="XIAO RP2040 Serprog" src="./pic/header.png">
 </p>
 
 <p align="center">
@@ -40,6 +40,10 @@ The firmware leverages the **RP2040 PIO (Programmable I/O)** to bit-bang SPI at 
 ## What You Need
 
 ### Hardware
+
+<p align="center">
+    <img width="500" height="auto" alt="Grove Shield for XIAO Hardware Overview" src="./pic/hardware-overview.png">
+</p>
 
 | Component | Description |
 |-----------|-------------|
