@@ -1,7 +1,7 @@
 # XIAO RP2040 Serprog
 
 <p align="center">
-    <img width="200" height="auto" alt="XIAO RP2040 Serprog" src="https://github.com/user-attachments/assets/placeholder">
+    <img width="400" height="auto" alt="Grove Shield for XIAO" src="./pic/hardware-overview.png">
 </p>
 
 <p align="center">
