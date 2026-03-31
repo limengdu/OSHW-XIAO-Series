@@ -295,10 +295,10 @@ We’re using this Discussion as a platform to connect with and get valuable fee
 ## Follow us
 
 - [Seeed Studio Reddit](https://www.reddit.com/r/Seeed_Studio/)
-- [Seeed Studio Discrod](https://discord.com/invite/QqMgVwHT3X)
+- [Seeed Studio Discord](https://discord.com/invite/QqMgVwHT3X)
 - [Seeed Studio Forums](https://forum.seeedstudio.com/)
 - [Seeed Studio Hackster](https://www.hackster.io/seeed)
-- [Seeed Stduio Linkedin](https://www.linkedin.com/company/1475165/admin/dashboard/)
+- [Seeed Studio LinkedIn](https://www.linkedin.com/company/1475165/admin/dashboard/)
 - [Seeed Studio X/Twitter](https://x.com/seeedstudio)
 - [Seeed Studio Facebook](https://www.facebook.com/seeedstudiosz/)
 - [Seeed Studio Youtube](https://www.youtube.com/c/SeeedStudioSZ-)
