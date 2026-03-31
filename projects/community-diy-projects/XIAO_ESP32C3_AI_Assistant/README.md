@@ -48,7 +48,7 @@ A minimal AI personal assistant running on Seeed Studio XIAO ESP32-C3, written i
   1. Install ESP-IDF following the [official guide](https://docs.espressif.com/projects/esp-idf/)
   2. Clone the repository:
      ```bash
-     git clone https://github.com/Carla-Guo/OSHW-XIAO-Series.git
+     git clone https://github.com/Seeed-Studio/OSHW-XIAO-Series.git
      cd OSHW-XIAO-Series/projects/community-diy-projects/XIAO_ESP32C3_AI_Assistant
      ```
   3. Run the install script:
